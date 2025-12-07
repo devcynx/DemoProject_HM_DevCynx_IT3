@@ -1,2 +1,16 @@
 fileFormatVersion: 2
 guid: 249968702e444554dadafade8b343797
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dailyRewardPrefab: {instanceID: 0}
+  - rewardParent: {instanceID: 0}
+  - config: {instanceID: 0}
+  - dayItemPrefab: {fileID: 1822529760069604011, guid: 5f3a1e54cfdff974ca7c8486b6caa543, type: 3}
+  - contentParent: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -11,9 +11,9 @@ public class DailyRewardDisplay : MonoBehaviour
     public Image Icon;
     void Start()
     {
-        DayText.text = dailyReward.DayText;
-        RewardText.text = dailyReward.DayText;
-        Icon.sprite = dailyReward.Icon;
+        DayText.text = dailyReward.data[0].DayText;
+        RewardText.text = dailyReward.data[0].RewardText;
+        Icon.sprite = dailyReward.data[0].Icon;
     }
 
 }

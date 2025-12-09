@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8a2d23f6f360a479a8282302f24d67, type: 3}
   m_Name: Daily Reward object
   m_EditorClassIdentifier: 
-  RewardText: 3435
-  DayText: ghh
-  Icon: {fileID: 21300000, guid: 02448361b2b8b31498c0fa90f467508f, type: 3}
+  data:
+  - RewardText: 100 Coins
+    DayText: Day 2
+    Icon: {fileID: 21300000, guid: 0f19d6b2f085ca642bfb251c8ff28ff1, type: 3}
+    rewards: []

@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd8a2d23f6f360a479a8282302f24d67, type: 3}
   m_Name: Daily Reward object 2
   m_EditorClassIdentifier: 
-  RewardText: 345
-  DayText: vfbrn
-  Icon: {fileID: 21300000, guid: 6100a3c7aa5a7d1498b44d55766bd88a, type: 3}
+  data:
+  - RewardText: 50 coins
+    DayText: Day 1
+    Icon: {fileID: 21300000, guid: a4b9ec0964c87cb448def600440e6c3f, type: 3}
+    rewards: []
+  - RewardText: 200
+    DayText: Day 3
+    Icon: {fileID: 21300000, guid: 0d58eea9f434f2d4faef6a1c8158e8b0, type: 3}
+    rewards: []

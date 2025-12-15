@@ -10,12 +10,11 @@ public class FinishLine : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("FINISH LINE HIT");
+          //  Debug.Log("FINISH LINE HIT");
 
             if (gameOverText != null)
                 gameOverText.SetActive(true);
 
-            // OPTIONAL: movement stop (SAFE)
             Rigidbody rb = other.GetComponent<Rigidbody>();
             if (rb != null)
             {

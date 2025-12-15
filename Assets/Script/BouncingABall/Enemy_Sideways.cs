@@ -41,7 +41,7 @@ public class Enemy_Sideways : MonoBehaviour
     {
         if (other.CompareTag("Obstacle"))
         {
-            Destroy(gameObject); // BALL destroy
+            Destroy(other.gameObject); // BALL destroy
         }
       
     }

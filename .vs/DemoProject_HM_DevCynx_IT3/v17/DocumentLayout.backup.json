@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\DemoProject_HM_DevCynx_IT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|d:\\demoproject_hm_devcynx_it3\\assets\\scripts\\task4scripts\\platformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\task4scripts\\platformscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|d:\\demoproject_hm_devcynx_it3\\assets\\script\\rollaball\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rollaball\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\script\\rollaball\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rollaball\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\script\\rollaball\\ballcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\rollaball\\ballcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\script\\bouncingaball\\enemy_sideways.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bouncingaball\\enemy_sideways.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\scripts\\task4scripts\\spherebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,19 +51,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "platformscript.cs",
-              "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\Task4Scripts\\platformscript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Task4Scripts\\platformscript.cs",
-              "ToolTip": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\Task4Scripts\\platformscript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Task4Scripts\\platformscript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAADAAAAAAAAAA==",
+              "Title": "FinishLine.cs",
+              "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\RollABall\\FinishLine.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RollABall\\FinishLine.cs",
+              "ToolTip": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\RollABall\\FinishLine.cs",
+              "RelativeToolTip": "Assets\\Script\\RollABall\\FinishLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T18:45:12.627Z",
+              "WhenOpened": "2025-12-15T02:01:24.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\RollABall\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RollABall\\CameraFollow.cs",
+              "ToolTip": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\RollABall\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Script\\RollABall\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:46:51.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enemy_Sideways.cs",
+              "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\BouncingABall\\Enemy_Sideways.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\BouncingABall\\Enemy_Sideways.cs",
+              "ToolTip": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\BouncingABall\\Enemy_Sideways.cs",
+              "RelativeToolTip": "Assets\\Script\\BouncingABall\\Enemy_Sideways.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:35:13.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BallCollision.cs",
+              "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\RollABall\\BallCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\RollABall\\BallCollision.cs",
+              "ToolTip": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Script\\RollABall\\BallCollision.cs",
+              "RelativeToolTip": "Assets\\Script\\RollABall\\BallCollision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T01:28:19.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SphereBehaviour.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\Task4Scripts\\SphereBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Task4Scripts\\SphereBehaviour.cs",
@@ -63,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "DailyReward.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\Data\\DailyReward.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\DailyReward.cs",
@@ -75,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DailyRewardItemUI.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\DailyRewardItemUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DailyRewardItemUI.cs",
@@ -87,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "RewardItem.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\RewardItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RewardItem.cs",
@@ -99,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DailyRewardManager.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\DailyRewardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DailyRewardManager.cs",

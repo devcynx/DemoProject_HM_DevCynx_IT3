@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\DemoProject_HM_DevCynx_IT3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|d:\\demoproject_hm_devcynx_it3\\assets\\scripts\\dailyrewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dailyrewardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\scripts\\task4scripts\\spherebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\task4scripts\\spherebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\scripts\\dailyrewarditemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dailyrewarditemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\scripts\\rewarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rewarditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\DailyRewardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DailyRewardManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|D:\\DemoProject_HM_DevCynx_IT3\\assets\\scripts\\data\\dailyreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B842815D-EEA5-5D39-A839-CE233E2EAEA7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\dailyreward.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\DailyRewardItemUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\DailyRewardItemUI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\RewardItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RewardItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "SphereBehaviour.cs",
+              "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\Task4Scripts\\SphereBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Task4Scripts\\SphereBehaviour.cs",
+              "ToolTip": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\Task4Scripts\\SphereBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Task4Scripts\\SphereBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T18:27:37.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DailyReward.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\Data\\DailyReward.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\DailyReward.cs",
@@ -42,7 +59,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DailyRewardItemUI.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\DailyRewardItemUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DailyRewardItemUI.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "Assets\\Scripts\\DailyRewardItemUI.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-07T20:53:00.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-07T20:53:00.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RewardItem.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\RewardItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RewardItem.cs",
@@ -67,16 +83,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DailyRewardManager.cs",
               "DocumentMoniker": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\DailyRewardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DailyRewardManager.cs",
               "ToolTip": "D:\\DemoProject_HM_DevCynx_IT3\\Assets\\Scripts\\DailyRewardManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\DailyRewardManager.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAADwv3cAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-06T18:14:53.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-06T18:14:53.384Z"
             }
           ]
         }

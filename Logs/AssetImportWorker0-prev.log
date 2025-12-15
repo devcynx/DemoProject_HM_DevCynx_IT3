@@ -1,0 +1,959 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/respin/6000.0.63f1-b423dd65e13f' branch; Version is '6000.0.63f1 (9438f9b77a46) revision 9713913'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 7916 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yc" at "2025-12-15T00:51:15.1779718Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-15T00:51:15Z
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\6000.0.63f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/DemoProject_HM_DevCynx_IT3
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56355
+-licensingIpc
+LicenseClient-yc
+-job-worker-count
+1
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/DemoProject_HM_DevCynx_IT3
+D:/DemoProject_HM_DevCynx_IT3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5068]  Target information:
+
+Player connection [5068]  * "[IP] 192.168.10.28 [Port] 0 [Flags] 2 [Guid] 3433272496 [EditorId] 3433272496 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3NMN5LN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [5068] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5068] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 1
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 37.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.63f1 (9438f9b77a46)
+[Subsystems] Discovering subsystems at path D:/Program Files/6000.0.63f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/DemoProject_HM_DevCynx_IT3/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     2048 MB
+    Driver:   20.19.15.4835
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Initialize mono
+Mono path[0] = 'D:/Program Files/6000.0.63f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/6000.0.63f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/6000.0.63f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.17.4'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-yc"
+[Licensing::IpcConnector] LicenseClient-yc channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yc-6000.0.63" at "2025-12-15T00:51:26.6153135Z"
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/6000.0.63f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              cd388ef895e04ab1a8a8abec2364a5a7
+  Correlation Id:          995e42caaf0796ce7ee101331a7d0461
+  External correlation Id: 2452236354849667416
+  Machine Id:              vnMnQjsBYxQfw8ZRtH+580YceSg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-yc-6000.0.63" (connect: 0.01s, validation: 0.01s, handshake: 8.40s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-yc-6000.0.63-notifications" at "2025-12-15T00:51:35.0303559Z"
+[Licensing::Module] Licensing Background thread has ended after 19.85s
+[Licensing::Module] Licensing is initialized (took 8.21s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968174127695-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: D:/Program Files/6000.0.63f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 8.390603 seconds.
+- Loaded All Assemblies, in 12.621 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1447 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.498 seconds
+Domain Reload Profiling: 16115ms
+	BeginReloadAssembly (2411ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (330ms)
+	RebuildNativeTypeToScriptingClass (89ms)
+	initialDomainReloadingComplete (8772ms)
+	LoadAllAssembliesAndSetupDomain (1015ms)
+		LoadAssemblies (2306ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (959ms)
+			TypeCache.Refresh (941ms)
+				TypeCache.ScanAssembly (840ms)
+			BuildScriptInfoCaches (5ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3499ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1795ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (385ms)
+			ProcessInitializeOnLoadAttributes (729ms)
+			ProcessInitializeOnLoadMethodAttributes (357ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  4.438 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.358 seconds
+Domain Reload Profiling: 7776ms
+	BeginReloadAssembly (467ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (3762ms)
+		LoadAssemblies (3358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (635ms)
+			TypeCache.Refresh (466ms)
+				TypeCache.ScanAssembly (430ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (3359ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1949ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (364ms)
+			ProcessInitializeOnLoadAttributes (1395ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6105 unused Assets / (4.0 MB). Loaded Objects now: 6808.
+Memory consumption went from 122.3 MB to 118.3 MB.
+Total: 22.834800 ms (FindLiveObjects: 2.100000 ms CreateObjectMapping: 1.917700 ms MarkObjects: 13.601900 ms  DeleteObjects: 5.212700 ms)
+
+========================================================================
+Received Prepare
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 58.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6118 unused Assets / (2.3 MB). Loaded Objects now: 6830.
+Memory consumption went from 120.8 MB to 118.5 MB.
+Total: 24.222900 ms (FindLiveObjects: 1.807000 ms CreateObjectMapping: 2.007300 ms MarkObjects: 14.650200 ms  DeleteObjects: 5.756100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1233444.318013 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Materials/Gradient Pallete.png
+  artifactKey: Guid(fdc9284e7f7d7be488f34ed803e0c9af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Materials/Gradient Pallete.png using Guid(fdc9284e7f7d7be488f34ed803e0c9af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '0f3d22bcb7cdc5594f2a6ebb19e2f25c') in 1.2856473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Scripts/SimpleGemsAnim.cs
+  artifactKey: Guid(845c415f3181b4840ab566c40e714752) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Scripts/SimpleGemsAnim.cs using Guid(845c415f3181b4840ab566c40e714752) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d055eb461fe219deded30b1dcfa1837') in 0.0670098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Physics/BouncyMaterial.physicMaterial
+  artifactKey: Guid(f1e07268fd3ce6947b1b6f9acc27f6dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Physics/BouncyMaterial.physicMaterial using Guid(f1e07268fd3ce6947b1b6f9acc27f6dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9a1da7b7a3bb8ff616862f906a76067') in 0.0633301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedAssests/Obstacle Pack
+  artifactKey: Guid(df75e615d5cecf547a6914cea5a5dc7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Obstacle Pack using Guid(df75e615d5cecf547a6914cea5a5dc7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77187bf4bd1cb1636ef84fe0ed53ff4b') in 0.0292497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+  artifactKey: Guid(c9efc33befc68374c889396a73a00a5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs using Guid(c9efc33befc68374c889396a73a00a5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c93a05cbaf45c2734338512064745f7a') in 0.0296976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Script/3ScenesScripts/NewMonoBehaviourScript.cs
+  artifactKey: Guid(cb579584e575c3a40b1b80779a358a2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/3ScenesScripts/NewMonoBehaviourScript.cs using Guid(cb579584e575c3a40b1b80779a358a2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc9cab0300d9795c8e2dcd848ab17f29') in 0.0294825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts
+  artifactKey: Guid(b112c431e3326a8448f44b81a0246fee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts using Guid(b112c431e3326a8448f44b81a0246fee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1a7ebbeb871c6308610647728aff40e') in 0.0278333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssests/Saritasa
+  artifactKey: Guid(3e44fcad25e033c4eb3f2100c4ecb14f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa using Guid(3e44fcad25e033c4eb3f2100c4ecb14f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '40b636cbcc15d60eb2846f0cf8da1f84') in 0.029451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs
+  artifactKey: Guid(337d0041a7dd7564e81c5f906c45230f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs using Guid(337d0041a7dd7564e81c5f906c45230f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39e1011f55f7b8d59c151ca257ce5979') in 0.0320106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings
+  artifactKey: Guid(ae57c1695dfdc0d4792ff24606489577) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings using Guid(ae57c1695dfdc0d4792ff24606489577) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c73c9596c77f704c3661c7559f804cbf') in 0.0355638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Script/RollABall/PlayerController.cs
+  artifactKey: Guid(ebb8ea85928a2e747a4065130fdf5195) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/RollABall/PlayerController.cs using Guid(ebb8ea85928a2e747a4065130fdf5195) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2be55657a3724fd24f03e4ce8fd0759b') in 0.0285702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Script/BouncingABall/CameraController.cs
+  artifactKey: Guid(217cc7c6143b31e4cab2d810dfe12dfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/BouncingABall/CameraController.cs using Guid(217cc7c6143b31e4cab2d810dfe12dfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '509cd761c5b5546082b50c72f766cbf9') in 0.0278635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/scr.cs
+  artifactKey: Guid(e4a55c7603de0b747b1a587c252b4e5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/scr.cs using Guid(e4a55c7603de0b747b1a587c252b4e5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99928e96ff49719ec93cec5b3d49c28f') in 0.0283146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems
+  artifactKey: Guid(92ebd507a42426d448cd52cc9463d05b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems using Guid(92ebd507a42426d448cd52cc9463d05b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a5d7942101fba3ba09e747b69fec71b') in 0.0282434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Script/BouncingABall/Enemy_Sideways.cs
+  artifactKey: Guid(1582f9bbefa636c43ad489174a1d5d21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/BouncingABall/Enemy_Sideways.cs using Guid(1582f9bbefa636c43ad489174a1d5d21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '931da8024d4dda018e9184c9cde3cc8b') in 0.0576835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline
+  artifactKey: Guid(a50539abb7601d94685456a522ba21b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline using Guid(a50539abb7601d94685456a522ba21b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ade1f8abebb8a946479ac060dd1bc0d') in 0.0356982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_MAOS.png
+  artifactKey: Guid(af14cb66eedf59148acbe88ef10c0de0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_MAOS.png using Guid(af14cb66eedf59148acbe88ef10c0de0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6fdd7b3432cfa25e7731bce239dc447c') in 0.0562959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Inflatable_Ring_A_Simple.prefab
+  artifactKey: Guid(e77be5f422cd2224aa017914268a838a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Inflatable_Ring_A_Simple.prefab using Guid(e77be5f422cd2224aa017914268a838a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79b766ed98276c9f7c46ed1d957cfdd1') in 0.1451048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedAssests/Obstacle Pack/Materials-Pallettes/my palette.png
+  artifactKey: Guid(f0a7fcee2a876463b9eeedfbff5a2956) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Obstacle Pack/Materials-Pallettes/my palette.png using Guid(f0a7fcee2a876463b9eeedfbff5a2956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e74a10a5d85aef5978e5e9fbf6d918e0') in 0.0486877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d584390a801effaa5fc2eeda8f03bf0') in 0.2139058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Shaders
+  artifactKey: Guid(a67274ccc42a90342a456ab19ec943b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Shaders using Guid(a67274ccc42a90342a456ab19ec943b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a3fe0616cac82481732f208db7ded839') in 0.028909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Materials/yellowMaterial.mat
+  artifactKey: Guid(fab2917968607b44984875684d3451c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/yellowMaterial.mat using Guid(fab2917968607b44984875684d3451c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2ea745a9670f89e14c3edb0594f3590') in 0.0752234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Prefabs
+  artifactKey: Guid(01451c9613e8fb444970915d73af14de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Prefabs using Guid(01451c9613e8fb444970915d73af14de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1c12194bceb1f42e62486120544df90') in 0.0272765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Models/Ruby.fbx
+  artifactKey: Guid(e8f34b9b0cfb46742a4d3e6197437a4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Models/Ruby.fbx using Guid(e8f34b9b0cfb46742a4d3e6197437a4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdb5c42ba0fc4b1ed069524d0e2f570d') in 0.1371974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+  artifactKey: Guid(0884dceb0d4308c4eb8bc763c8f8deae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/Scripts/VolumetricLineBehavior.cs using Guid(0884dceb0d4308c4eb8bc763c8f8deae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6dfbdd5f6a967536f9eba7d591b195c') in 0.0273771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Materials
+  artifactKey: Guid(d22c3bebb845732498ff7304af2f2c92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Materials using Guid(d22c3bebb845732498ff7304af2f2c92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '454b87c1292903f85c95c2bd47bd04d5') in 0.0438112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Script/RollABall/FinishLine.cs
+  artifactKey: Guid(153501f3b40713f498b2008b646a9459) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/RollABall/FinishLine.cs using Guid(153501f3b40713f498b2008b646a9459) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ea8c7f794daecef1924539acec413a2') in 0.0286742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportedAssests/Obstacle Pack/Models
+  artifactKey: Guid(d4defc039ddeb4e428df5e4374ab6e3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Obstacle Pack/Models using Guid(d4defc039ddeb4e428df5e4374ab6e3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be6966eb08bc43f915b672880796a7e1') in 0.0403902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_Simple.mat
+  artifactKey: Guid(c1f2f01c62b07014e925936a6eff6bd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_Simple.mat using Guid(c1f2f01c62b07014e925936a6eff6bd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f10cb4d5881c9f6806ac94bb736a0c20') in 0.0579006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes
+  artifactKey: Guid(9ec9ea76391606549901af0d9f136b65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes using Guid(9ec9ea76391606549901af0d9f136b65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56300ca743cacc0ac8a55c2359b97c2b') in 0.0273854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Materials
+  artifactKey: Guid(db468a1056475f047bc0defbf7661447) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Materials using Guid(db468a1056475f047bc0defbf7661447) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f36f9b594a0c6045caa727bc0eb880e2') in 0.1110055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Materials/New Material 2.mat
+  artifactKey: Guid(4d5d675b59208cd4a8d5402f1708ff95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/New Material 2.mat using Guid(4d5d675b59208cd4a8d5402f1708ff95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be9072dabd723081aeb0bdea1f5dc853') in 0.0460341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Roll A Ball.unity
+  artifactKey: Guid(a1c4d54935c8df449be77422f35649ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Roll A Ball.unity using Guid(a1c4d54935c8df449be77422f35649ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da032d4cc3a37bf80a183b40139316b6') in 0.0466627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Script/3ScenesScripts/platformscript.cs
+  artifactKey: Guid(e458967a668083847a538a961ad9c15c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/3ScenesScripts/platformscript.cs using Guid(e458967a668083847a538a961ad9c15c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57b0c2d9128ced0d37ab5f70e387f1f5') in 0.0292028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Scripts
+  artifactKey: Guid(2afa0dd47a738fc4c94a41cc78afb9c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Scripts using Guid(2afa0dd47a738fc4c94a41cc78afb9c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35ebf88ffbfe1fd164904f629d5cdda0') in 0.0268512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Script/RollABall/CameraFollow.cs
+  artifactKey: Guid(7814968c66272b14fbc8b9a17ad619c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/RollABall/CameraFollow.cs using Guid(7814968c66272b14fbc8b9a17ad619c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b4dc17a58d530dccd0419eb2882f6d07') in 0.0299353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssests/VolumetricLines
+  artifactKey: Guid(07c89a6e7a3330d4384822c33d4b166b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines using Guid(07c89a6e7a3330d4384822c33d4b166b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6b62e56f44d7454bdd8300e0b0a64ba') in 0.0303196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssests
+  artifactKey: Guid(adccaba76d79bb740a041617d1e69944) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests using Guid(adccaba76d79bb740a041617d1e69944) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bdeb3476e7ef03a357b3f9609c82d19b') in 0.039164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc
+  artifactKey: Guid(41c90c70f9188b44992f35519a5837c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc using Guid(41c90c70f9188b44992f35519a5837c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '884373358db6364c287e2e3ff8918749') in 0.0248302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Script/3ScenesScripts/UIManager.cs
+  artifactKey: Guid(1503842bb12b2f94ba882179788d8c2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/3ScenesScripts/UIManager.cs using Guid(1503842bb12b2f94ba882179788d8c2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cdfdba7dedf2c86f969d5539922d06a7') in 0.0423697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedAssests/Obstacle Pack/Materials-Pallettes
+  artifactKey: Guid(c2e5115d8fcdbd746afc74eb18ae9fff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Obstacle Pack/Materials-Pallettes using Guid(c2e5115d8fcdbd746afc74eb18ae9fff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4294d6992854f619889894bfe3a89b11') in 0.0293527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Script/RollABall
+  artifactKey: Guid(b55380dcad2fffc44a155f41b54506ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/RollABall using Guid(b55380dcad2fffc44a155f41b54506ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '86c92c3e143a0eaeff9c30755271e69a') in 0.0262236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Script/RollABall/RubyRotation.cs
+  artifactKey: Guid(509be9cd5a4a25c4a85613b70eb19159) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/RollABall/RubyRotation.cs using Guid(509be9cd5a4a25c4a85613b70eb19159) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '345df9cd0d8f16e200d8aa5195585dde') in 0.0289469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+  artifactKey: Guid(21887c148ed9f8143a28d8e6c7efcbd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/Scripts/VolumetricLineVertexData.cs using Guid(21887c148ed9f8143a28d8e6c7efcbd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '258d80114ba4e27f4e5ffee0efa8df56') in 0.0315756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedAssests/BTM_Assets
+  artifactKey: Guid(da42f8a7ec1539446b6e11cc43707386) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets using Guid(da42f8a7ec1539446b6e11cc43707386) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9b939d9856bd1f99b60bbff7d6c058a4') in 0.0451573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Models
+  artifactKey: Guid(23589dcf011790947a48194e8751ea06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Models using Guid(23589dcf011790947a48194e8751ea06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de93cbf7105d5d05ed926a8f847261ba') in 0.0239249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Orange.mat
+  artifactKey: Guid(7669597e2cd68b246afed9abf2c0d93f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/BTM_Assets/BTM_Items_Gems/Materials/BaseMaterial_Orange.mat using Guid(7669597e2cd68b246afed9abf2c0d93f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99ecece7e492ff816439bec481f814dd') in 0.5601149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Script/3ScenesScripts
+  artifactKey: Guid(1d13a0d675a92ba40ae34edc1a2e5483) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/3ScenesScripts using Guid(1d13a0d675a92ba40ae34edc1a2e5483) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8df5c5a81845f22a172475e236f6b93') in 0.0345498 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-LightSaber.shader
+  artifactKey: Guid(8ca03c355c08f5047bdf5b6f9ed24e51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-LightSaber.shader using Guid(8ca03c355c08f5047bdf5b6f9ed24e51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82522c183460e1b6fe492909a886f861') in 0.1008615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Script/BouncingABall
+  artifactKey: Guid(786b36ab4d5a02b469523a7e5effb8ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/BouncingABall using Guid(786b36ab4d5a02b469523a7e5effb8ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd133466d0f6d891ced3ca8a44b38d3a9') in 0.0207344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/New Material 3.mat
+  artifactKey: Guid(af5dda5dabaf5fe4197bb1a416b982f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Materials/New Material 3.mat using Guid(af5dda5dabaf5fe4197bb1a416b982f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4df73c43ef7d1b74ce5f42061bca58a') in 0.0400737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Script/RollABall/BallCollision.cs
+  artifactKey: Guid(fc940e5567b8a174f99e573f9044d9bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/RollABall/BallCollision.cs using Guid(fc940e5567b8a174f99e573f9044d9bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02878f5c823948f3d15fbd50367c2cfd') in 0.0378113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs
+  artifactKey: Guid(5cb039d3a64491f4ebfc852d25b5ee70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs using Guid(5cb039d3a64491f4ebfc852d25b5ee70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '854a410e0c6ca4f3ce87944be2c65587') in 0.0709172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ImportedAssests/Obstacle Pack/Models/Bomb.fbx
+  artifactKey: Guid(3c47550989e8e47859e785a4893523e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Obstacle Pack/Models/Bomb.fbx using Guid(3c47550989e8e47859e785a4893523e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bbe577d61835e30629bf17e001ffcf0d') in 0.1037375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedAssests/Obstacle Pack/Models/obstacle spike.fbx
+  artifactKey: Guid(204ad0e993e35443c87eb42f81edaed7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Obstacle Pack/Models/obstacle spike.fbx using Guid(204ad0e993e35443c87eb42f81edaed7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c4e81fdc5d5c4459907b89abdb246d3') in 0.088933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+  artifactKey: Guid(43ec8a26d513771429bb2850461a3223) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs using Guid(43ec8a26d513771429bb2850461a3223) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0bd518b94e91635c59a1a48b95dee2a') in 0.0391798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Script/3ScenesScripts/Rotation.cs
+  artifactKey: Guid(6a989fdfd5cd1fa44b955d37b42006db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/3ScenesScripts/Rotation.cs using Guid(6a989fdfd5cd1fa44b955d37b42006db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6cf490c7021b9618c873f855c73412f2') in 0.2295728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Prefabs/LineStrip-LightSaber.prefab
+  artifactKey: Guid(158489636c6d50d4290c11b03aa00742) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Prefabs/LineStrip-LightSaber.prefab using Guid(158489636c6d50d4290c11b03aa00742) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcd43cf431582fe85feb27c1e52e333a') in 0.597027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CannonBehavior.cs
+  artifactKey: Guid(6ea36ef7a00788340aa4961f12313cec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CannonBehavior.cs using Guid(6ea36ef7a00788340aa4961f12313cec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '335a88f2d95e7ec476e2ac0df6fcba1a') in 0.0583764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models
+  artifactKey: Guid(62ffe5d7fd1daf347ba93c5f811a3cdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models using Guid(62ffe5d7fd1daf347ba93c5f811a3cdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '294ad0d54369028417cf4db32d15af6c') in 0.0750311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Materials/LineStrip-LightSaber.mat
+  artifactKey: Guid(93650598a03e42b43b19fe787c484e93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/BuiltInRenderPipeline/Materials/LineStrip-LightSaber.mat using Guid(93650598a03e42b43b19fe787c484e93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff74996daa5e620b1254f58c4a813699') in 0.4820442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Script
+  artifactKey: Guid(c66249e70b6ba2449a5d4f030ae026d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script using Guid(c66249e70b6ba2449a5d4f030ae026d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3bd394ed4b22a847f5890964617e6ff') in 0.0692792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_Simple_A.png
+  artifactKey: Guid(8801b7d713621a94298950e06a2e6675) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_Simple_A.png using Guid(8801b7d713621a94298950e06a2e6675) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5bb4e6e111cabcaafd63632145b5327') in 0.1082209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials
+  artifactKey: Guid(2fdd0dd7604702749af308d34f20290b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials using Guid(2fdd0dd7604702749af308d34f20290b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd39b74e90b8305243ada0234fc6452e') in 0.4995643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Script/BouncingABall/FinishingLine.cs
+  artifactKey: Guid(c681c8a74f930904f8f4656f3088314d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/BouncingABall/FinishingLine.cs using Guid(c681c8a74f930904f8f4656f3088314d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80d35f9cb4174b2821da87df4961e1f4') in 0.0595723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedAssests/VolumetricLines/Scripts
+  artifactKey: Guid(72d69e1bfd52ae54d917c07d2c201693) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/VolumetricLines/Scripts using Guid(72d69e1bfd52ae54d917c07d2c201693) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf1fa45d820a6bca0d9bf1b6a6062192') in 0.0600632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Inflatable_Ring_A.fbx
+  artifactKey: Guid(cc4130b4cdf02ad42a94d44c851c46bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Inflatable_Ring_A.fbx using Guid(cc4130b4cdf02ad42a94d44c851c46bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d0e0a0fef0e68994349a8b5870b98b1') in 1.9714862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_N.png
+  artifactKey: Guid(8a5422a51fd9eb748b2cc5c4655d467d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/ImportedAssests/Saritasa/Models/Inflatable_Rings/Materials/Inflatable_Rings_N.png using Guid(8a5422a51fd9eb748b2cc5c4655d467d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '947bbc1bc07efae20b6e5aec8b7a1242') in 0.3010303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Script/RollABall/PlayerCollision.cs
+  artifactKey: Guid(869732e635edb2343b461f839a9490d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Script/RollABall/PlayerCollision.cs using Guid(869732e635edb2343b461f839a9490d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f5f43a75f82d393d51944f715a1fafd') in 0.0564265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.738476 seconds.
+  path: Assets/Scenes/Roll A Ball.unity
+  artifactKey: Guid(a1c4d54935c8df449be77422f35649ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Roll A Ball.unity using Guid(a1c4d54935c8df449be77422f35649ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f90a576d972147d787a976949752e2e') in 5.0146894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Scenes/Roll A Ball.unity
+  artifactKey: Guid(a1c4d54935c8df449be77422f35649ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Roll A Ball.unity using Guid(a1c4d54935c8df449be77422f35649ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f90a576d972147d787a976949752e2e') in 0.0015373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/Roll A Ball.unity
+  artifactKey: Guid(a1c4d54935c8df449be77422f35649ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Roll A Ball.unity using Guid(a1c4d54935c8df449be77422f35649ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd46ae36277456ad7d6903ecf7120be1b') in 0.1134397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.868606 seconds.
+  path: Assets/BouncingBall.unity
+  artifactKey: Guid(ef299eaebd624d84885403b471e2ba1a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/BouncingBall.unity using Guid(ef299eaebd624d84885403b471e2ba1a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01fa90d5bb3b8de271e69fc68796888e') in 0.0711866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  8.493 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.795 seconds
+Domain Reload Profiling: 11301ms
+	BeginReloadAssembly (3267ms)
+		ExecutionOrderSort (1ms)
+		DisableScriptedObjects (157ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (699ms)
+	RebuildCommonClasses (418ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (94ms)
+	LoadAllAssembliesAndSetupDomain (4684ms)
+		LoadAssemblies (5275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1126ms)
+			TypeCache.Refresh (71ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (894ms)
+			ResolveRequiredComponents (80ms)
+	FinalizeReload (2796ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1785ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (19ms)
+			BeforeProcessingInitializeOnLoad (402ms)
+			ProcessInitializeOnLoadAttributes (1129ms)
+			ProcessInitializeOnLoadMethodAttributes (186ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6129 unused Assets / (2.9 MB). Loaded Objects now: 6849.
+Memory consumption went from 134.3 MB to 131.4 MB.
+Total: 63.782600 ms (FindLiveObjects: 1.842000 ms CreateObjectMapping: 7.241600 ms MarkObjects: 48.749900 ms  DeleteObjects: 5.943600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.423 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.968 seconds
+Domain Reload Profiling: 5399ms
+	BeginReloadAssembly (484ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1731ms)
+		LoadAssemblies (820ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1158ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1108ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (2970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2412ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (22ms)
+			BeforeProcessingInitializeOnLoad (428ms)
+			ProcessInitializeOnLoadAttributes (1525ms)
+			ProcessInitializeOnLoadMethodAttributes (397ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (83ms)
+Shader Hidden/ProbeVolume/VoxelizeScene is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 6.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6124 unused Assets / (2.5 MB). Loaded Objects now: 6852.
+Memory consumption went from 134.3 MB to 131.8 MB.
+Total: 83.363200 ms (FindLiveObjects: 2.165000 ms CreateObjectMapping: 9.736700 ms MarkObjects: 23.547600 ms  DeleteObjects: 47.911000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
